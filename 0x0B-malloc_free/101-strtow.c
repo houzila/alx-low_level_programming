@@ -6,6 +6,8 @@
  *         or NULL if memory allocation fails,
  *         str is NULL, or str is empty.
  */
+#include <stddef.h>
+#include <stdlib.h>
 char **strtow(char *str)
 {
 char **words;
